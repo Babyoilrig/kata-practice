@@ -82,10 +82,12 @@
 // function that removes the first and last characters of a string. 
 // You're given one parameter, the original string. You don't have to worry 
 // with strings with less than two characters.
-//Solution: 
-// //function removeChar(str){
-//     let newStr = str.replace(str[0], '');
-//     newStr = newStr.replace(newStr[newStr.length-1], '');
-//   return newStr
-//   };
+//Solution:
+// function removeChar(str){
+//     return str.slice(1, str.length - 1);
+//     };
   
+
+ 
+
+
