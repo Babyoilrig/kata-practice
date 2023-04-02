@@ -109,7 +109,15 @@
 //     return m === null ? 0 : m.length;
 //     }
    
+  //Kata - 7 kyu - 7 kyu - Disemvowel Trolls
+//   //Remove all vowels out of a string
+//   //Solution:
+//   function disemvowel(str) {
+//     var newStr = str.replace(/[aeiou]/gi,'');
+//   return newStr;
+//   }
   
+
 
 
 
