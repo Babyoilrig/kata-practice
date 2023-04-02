@@ -23,14 +23,28 @@
 //       }
 //       return sum;
 //   };
-let num = 2;
-
-function makeNegative(num) {
+//Kata 4 - Level 8 - Complete
+// function makeNegative(num) {
     
-    if (num === 0){
-        return 0}
-    else if (num > 0){
-      return num
-      } 
-    else return num - (num*2)
-  }
+//     if (num <= 0){
+//       return num
+//       }
+//   else return -(num)
+//     }
+
+//Kata 5- Reverse a string - Level 8 - Complete
+// function solution(str){
+//     return str.split("").reverse().join("");
+//   }
+
+//Kata 6 - Boolean values - Level 8 - Complete
+//Complete the method that takes a boolean value 
+//and return a "Yes" string for true, or a "No" string for false.
+//function boolToWord( bool ){
+    // if (bool === true) {
+    //     return "Yes";
+    //   }
+    //   else {
+    //     return "No";
+    //   }
+    // }
