@@ -101,6 +101,21 @@
 //     return s.repeat(n);
 // }
 
+// //Kata - 7kyu -Count the vowels
+// //Description - Count the vowels in a string
+// function getCount(str) {
+//   count = str.match(/[aeiou]/gi).length;
+//   if (count === null){
+//     return 0;
+//   }
+//   else {
+//     return count;
+//   }
+  
+
+
+
+
   
 
  
