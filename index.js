@@ -109,13 +109,52 @@
 //     return m === null ? 0 : m.length;
 //     }
    
-  //Kata - 7 kyu - 7 kyu - Disemvowel Trolls
+  //Kata - 7 kyu - Disemvowel Trolls
 //   //Remove all vowels out of a string
 //   //Solution:
 //   function disemvowel(str) {
 //     var newStr = str.replace(/[aeiou]/gi,'');
 //   return newStr;
 //   }
+
+// //Kata - 7 kyu - Digit*Digit
+// //DESCRIPTION:
+// Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
+
+// For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1. (81-1-1-81)
+
+// Example #2: An input of 765 will/should return 493625 because 72 is 49, 62 is 36, and 52 is 25. (49-36-25)
+
+// Note: The function accepts an integer and returns an integer.
+
+// Happy Coding!
+
+// Kata – arrange digits into descending order 4-5-23
+// function descendingOrder(n){
+//   let newN = n.toString().split('').sort(function (a, b) { return b - a; }).join('');
+//   return +newN;
+// }
+
+// Return middle characters
+
+// Kata 4-5-23
+
+// function getMiddle(str) {
+
+//         var position;
+//         var length;
+
+//         if(str.length % 2 == 1) {
+//             position = str.length / 2;
+//             length = 1;
+//         } else {
+//             position = str.length / 2 - 1;
+//             length = 2;
+//         }
+
+//         return str.substring(position, position + length)
+//     }
+
   
 
 
